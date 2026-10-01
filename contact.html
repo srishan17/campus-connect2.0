@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact Sales — CampusConnect</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎓</text></svg>" />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../css/main.css" />
+</head>
+<body>
+<nav class="nav" id="nav">
+  <div class="nav-inner">
+    <a href="../index.html" class="logo">Campus<span>Connect</span></a>
+    <ul class="nav-links">
+      <li><a href="events.html">Events</a></li>
+      <li><a href="clubs.html">Clubs</a></li>
+      <li><a href="hackathons.html">Hackathons</a></li>
+    </ul>
+    <div class="nav-cta">
+      <a href="login.html" class="btn-ghost">Sign in</a>
+      <a href="register.html" class="btn-primary">Join Free</a>
+    </div>
+    <button class="hamburger" id="hamburger"><span></span><span></span><span></span></button>
+  </div>
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="events.html">Events</a>
+    <a href="clubs.html">Clubs</a>
+    <a href="hackathons.html">Hackathons</a>
+    <a href="login.html">Sign in</a>
+    <a href="register.html" class="btn-primary">Join Free</a>
+  </div>
+</nav>
+
+<div class="page-hero" style="text-align:center;padding-bottom:40px">
+  <p class="section-eye">Get in touch</p>
+  <h1>List your campus on<br/><span class="gradient-text">CampusConnect</span></h1>
+  <p style="margin:0 auto;max-width:500px">Let us know about your college or club. We'll set you up with a premium organizer account and onboard your team.</p>
+</div>
+
+<div class="contact-grid">
+  <div class="contact-info">
+    <h3>Why partner with us?</h3>
+    <p>CampusConnect gives your college a dedicated event management system — from posting events to tracking attendance with QR codes — all in one dashboard your students already use.</p>
+    <div class="contact-item">🏫 <div><strong>50+ campuses</strong> already onboarded</div></div>
+    <div class="contact-item">⚡ <div><strong>48-hour onboarding</strong> — get live fast</div></div>
+    <div class="contact-item">📊 <div><strong>Real-time analytics</strong> on registrations & attendance</div></div>
+    <div class="contact-item">🔔 <div><strong>Automated reminders</strong> reduce no-shows by 40%</div></div>
+    <div class="contact-item">📧 <div>hello@campusconnect.in</div></div>
+  </div>
+
+  <div>
+    <div class="auth-card" style="max-width:100%;padding:36px">
+      <form id="contactForm">
+        <div class="form-group">
+          <label class="form-label">Your Name</label>
+          <input type="text" class="form-input" placeholder="Dr. Rajesh Kumar" required />
+        </div>
+        <div class="form-group">
+          <label class="form-label">Role</label>
+          <select class="form-select">
+            <option>Student Coordinator</option>
+            <option>Faculty / HOD</option>
+            <option>Club President</option>
+            <option>Dean / Administration</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label class="form-label">College / Institution</label>
+          <input type="text" class="form-input" placeholder="NIT Warangal" required />
+        </div>
+        <div class="form-group">
+          <label class="form-label">Email</label>
+          <input type="email" class="form-input" placeholder="you@college.ac.in" required />
+        </div>
+        <div class="form-group">
+          <label class="form-label">Message (optional)</label>
+          <textarea class="form-input" rows="3" placeholder="Tell us about your campus and what you need…" style="resize:vertical"></textarea>
+        </div>
+        <button type="submit" class="btn-primary btn-full">Send Message →</button>
+      </form>
+    </div>
+  </div>
+</div>
+
+<script src="../js/main.js"></script>
+</body>
+</html>

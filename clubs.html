@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Clubs — CampusConnect</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎓</text></svg>" />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../css/main.css" />
+</head>
+<body>
+<nav class="nav" id="nav">
+  <div class="nav-inner">
+    <a href="../index.html" class="logo">Campus<span>Connect</span></a>
+    <ul class="nav-links">
+      <li><a href="events.html">Events</a></li>
+      <li><a href="clubs.html" style="color:var(--text)">Clubs</a></li>
+      <li><a href="hackathons.html">Hackathons</a></li>
+      <li><a href="dashboard.html">My Dashboard</a></li>
+    </ul>
+    <div class="nav-cta">
+      <a href="login.html" class="btn-ghost">Sign in</a>
+      <a href="register.html" class="btn-primary">Join Free</a>
+    </div>
+    <button class="hamburger" id="hamburger"><span></span><span></span><span></span></button>
+  </div>
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="events.html">Events</a>
+    <a href="clubs.html">Clubs</a>
+    <a href="hackathons.html">Hackathons</a>
+    <a href="dashboard.html">My Dashboard</a>
+    <a href="login.html">Sign in</a>
+    <a href="register.html" class="btn-primary">Join Free</a>
+  </div>
+</nav>
+
+<div class="page-hero">
+  <p class="section-eye">Find your people</p>
+  <h1>Campus <span class="gradient-text">Clubs</span></h1>
+  <p>150+ clubs listed across campuses. Follow a club to never miss their events and announcements.</p>
+</div>
+
+<div class="filter-bar">
+  <button class="filter-btn active">All Clubs</button>
+  <button class="filter-btn">Technical</button>
+  <button class="filter-btn">Cultural</button>
+  <button class="filter-btn">Sports</button>
+  <button class="filter-btn">Social</button>
+  <button class="filter-btn">Arts & Music</button>
+  <button class="filter-btn">Entrepreneurship</button>
+</div>
+
+<div class="clubs-grid">
+
+  <div class="club-card">
+    <div class="club-avatar" style="background:rgba(108,99,255,0.2)">💻</div>
+    <div class="club-name">Coding Club</div>
+    <div class="club-desc">Weekly coding contests, CP sessions, open source projects, and mentorship from senior devs. Beginner-friendly.</div>
+    <div class="club-meta">
+      <span>👥 320 members</span>
+      <span>📅 6 upcoming events</span>
+    </div>
+    <div class="club-follow">
+      <button class="btn-primary club-follow-btn" data-following="false">Follow</button>
+    </div>
+  </div>
+
+  <div class="club-card">
+    <div class="club-avatar" style="background:rgba(232,76,240,0.2)">🎨</div>
+    <div class="club-name">Design & UX Society</div>
+    <div class="club-desc">Explore UI/UX, branding, and visual communication. Monthly design sprints, portfolio reviews, and industry talks.</div>
+    <div class="club-meta">
+      <span>👥 180 members</span>
+      <span>📅 3 upcoming events</span>
+    </div>
+    <div class="club-follow">
+      <button class="btn-ghost club-follow-btn" data-following="false">Follow</button>
+    </div>
+  </div>
+
+  <div class="club-card">
+    <div class="club-avatar" style="background:rgba(0,184,148,0.2)">🌿</div>
+    <div class="club-name">Entrepreneurship Cell</div>
+    <div class="club-desc">Pitching competitions, startup idea labs, investor connects, and business plan workshops. Turn ideas into ventures.</div>
+    <div class="club-meta">
+      <span>👥 245 members</span>
+      <span>📅 4 upcoming events</span>
+    </div>
+    <div class="club-follow">
+      <button class="btn-ghost club-follow-btn" data-following="false">Follow</button>
+    </div>
+  </div>
+
+  <div class="club-card">
+    <div class="club-avatar" style="background:rgba(59,130,246,0.2)">🤖</div>
+    <div class="club-name">AI & Robotics Club</div>
+    <div class="club-desc">Build robots, train ML models, and compete in national robotics competitions. Arduino, Python, and deep learning.</div>
+    <div class="club-meta">
+      <span>👥 290 members</span>
+      <span>📅 5 upcoming events</span>
+    </div>
+    <div class="club-follow">
+      <button class="btn-ghost club-follow-btn" data-following="false">Follow</button>
+    </div>
+  </div>
+
+  <div class="club-card">
+    <div class="club-avatar" style="background:rgba(255,107,107,0.2)">🎭</div>
+    <div class="club-name">Drama & Performing Arts</div>
+    <div class="club-desc">Street plays, theatre, improv, and annual drama festival. Open to all — no experience needed, just passion.</div>
+    <div class="club-meta">
+      <span>👥 155 members</span>
+      <span>📅 2 upcoming events</span>
+    </div>
+    <div class="club-follow">
+      <button class="btn-ghost club-follow-btn" data-following="false">Follow</button>
+    </div>
+  </div>
+
+  <div class="club-card">
+    <div class="club-avatar" style="background:rgba(255,165,0,0.2)">📸</div>
+    <div class="club-name">Photography Club</div>
+    <div class="club-desc">Weekly photo walks, editing workshops, and an annual exhibition. Shoot with DSLR or your phone — all welcome.</div>
+    <div class="club-meta">
+      <span>👥 200 members</span>
+      <span>📅 3 upcoming events</span>
+    </div>
+    <div class="club-follow">
+      <button class="btn-ghost club-follow-btn" data-following="false">Follow</button>
+    </div>
+  </div>
+
+  <div class="club-card">
+    <div class="club-avatar" style="background:rgba(255,215,0,0.2)">🎵</div>
+    <div class="club-name">Music Society</div>
+    <div class="club-desc">Band jams, open mic nights, classical and western music. Annual fest and inter-college music competitions.</div>
+    <div class="club-meta">
+      <span>👥 190 members</span>
+      <span>📅 4 upcoming events</span>
+    </div>
+    <div class="club-follow">
+      <button class="btn-ghost club-follow-btn" data-following="false">Follow</button>
+    </div>
+  </div>
+
+  <div class="club-card">
+    <div class="club-avatar" style="background:rgba(108,99,255,0.15)">🌍</div>
+    <div class="club-name">Social Impact Cell</div>
+    <div class="club-desc">Community outreach, fundraising drives, and social entrepreneurship. Make a difference beyond the campus gates.</div>
+    <div class="club-meta">
+      <span>👥 130 members</span>
+      <span>📅 2 upcoming events</span>
+    </div>
+    <div class="club-follow">
+      <button class="btn-ghost club-follow-btn" data-following="false">Follow</button>
+    </div>
+  </div>
+
+  <div class="club-card">
+    <div class="club-avatar" style="background:rgba(232,76,240,0.15)">⚽</div>
+    <div class="club-name">Sports Association</div>
+    <div class="club-desc">Cricket, football, badminton, chess, and more. Inter-college tournaments and daily coaching sessions.</div>
+    <div class="club-meta">
+      <span>👥 400 members</span>
+      <span>📅 8 upcoming events</span>
+    </div>
+    <div class="club-follow">
+      <button class="btn-ghost club-follow-btn" data-following="false">Follow</button>
+    </div>
+  </div>
+
+</div>
+
+<script src="../js/main.js"></script>
+</body>
+</html>

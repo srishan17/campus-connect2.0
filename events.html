@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Events — CampusConnect</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎓</text></svg>" />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../css/main.css" />
+</head>
+<body>
+<nav class="nav" id="nav">
+  <div class="nav-inner">
+    <a href="../index.html" class="logo">Campus<span>Connect</span></a>
+    <ul class="nav-links">
+      <li><a href="events.html" style="color:var(--text)">Events</a></li>
+      <li><a href="clubs.html">Clubs</a></li>
+      <li><a href="hackathons.html">Hackathons</a></li>
+      <li><a href="dashboard.html">My Dashboard</a></li>
+    </ul>
+    <div class="nav-cta">
+      <a href="login.html" class="btn-ghost">Sign in</a>
+      <a href="register.html" class="btn-primary">Join Free</a>
+    </div>
+    <button class="hamburger" id="hamburger"><span></span><span></span><span></span></button>
+  </div>
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="events.html">Events</a>
+    <a href="clubs.html">Clubs</a>
+    <a href="hackathons.html">Hackathons</a>
+    <a href="dashboard.html">My Dashboard</a>
+    <a href="login.html">Sign in</a>
+    <a href="register.html" class="btn-primary">Join Free</a>
+  </div>
+</nav>
+
+<div class="page-hero">
+  <p class="section-eye">Discover</p>
+  <h1>Campus Events</h1>
+  <p>Find and register for hackathons, workshops, clubs, seminars & competitions happening at your college.</p>
+</div>
+
+<div class="filter-bar">
+  <button class="filter-btn active">All Events</button>
+  <button class="filter-btn">Hackathons</button>
+  <button class="filter-btn">Workshops</button>
+  <button class="filter-btn">Competitions</button>
+  <button class="filter-btn">Seminars</button>
+  <button class="filter-btn">Fests</button>
+  <button class="filter-btn">This Week</button>
+  <button class="filter-btn">Free Entry</button>
+</div>
+
+<div class="events-grid">
+
+  <a href="#" class="event-card">
+    <div class="event-thumb" style="background:linear-gradient(135deg,rgba(108,99,255,0.3),rgba(108,99,255,0.05))">💻</div>
+    <div class="event-body">
+      <span class="event-tag tag-hack">Hackathon</span>
+      <div class="event-title">HackMania 2025</div>
+      <div class="event-meta">
+        <span>📅 Jan 18–19</span>
+        <span>📍 CS Block</span>
+        <span>⏱ 48 Hours</span>
+      </div>
+    </div>
+    <div class="event-footer">
+      <div class="event-seats">
+        <div>72% seats filled</div>
+        <div class="seats-bar"><div class="seats-fill" style="width:72%"></div></div>
+      </div>
+      <div class="event-reg">Register →</div>
+    </div>
+  </a>
+
+  <a href="#" class="event-card">
+    <div class="event-thumb" style="background:linear-gradient(135deg,rgba(232,76,240,0.3),rgba(232,76,240,0.05))">🎨</div>
+    <div class="event-body">
+      <span class="event-tag tag-work">Workshop</span>
+      <div class="event-title">UI/UX Masterclass</div>
+      <div class="event-meta">
+        <span>📅 Jan 20</span>
+        <span>📍 Design Lab, B-204</span>
+        <span>⏱ 3 Hours</span>
+      </div>
+    </div>
+    <div class="event-footer">
+      <div class="event-seats">
+        <div>40% seats filled</div>
+        <div class="seats-bar"><div class="seats-fill" style="width:40%;background:var(--pink)"></div></div>
+      </div>
+      <div class="event-reg">Register →</div>
+    </div>
+  </a>
+
+  <a href="#" class="event-card">
+    <div class="event-thumb" style="background:linear-gradient(135deg,rgba(255,165,0,0.3),rgba(255,165,0,0.05))">🏅</div>
+    <div class="event-body">
+      <span class="event-tag tag-comp">Competition</span>
+      <div class="event-title">Code Sprint Finals</div>
+      <div class="event-meta">
+        <span>📅 Jan 22</span>
+        <span>📍 Main Auditorium</span>
+        <span>⏱ 5 Hours</span>
+      </div>
+    </div>
+    <div class="event-footer">
+      <div class="event-seats">
+        <div>55% seats filled</div>
+        <div class="seats-bar"><div class="seats-fill" style="width:55%;background:var(--orange)"></div></div>
+      </div>
+      <div class="event-reg">Register →</div>
+    </div>
+  </a>
+
+  <a href="#" class="event-card">
+    <div class="event-thumb" style="background:linear-gradient(135deg,rgba(0,184,148,0.3),rgba(0,184,148,0.05))">🤖</div>
+    <div class="event-body">
+      <span class="event-tag tag-sem">Seminar</span>
+      <div class="event-title">AI in Healthcare — Expert Talk</div>
+      <div class="event-meta">
+        <span>📅 Jan 24</span>
+        <span>📍 Seminar Hall 1</span>
+        <span>⏱ 2 Hours</span>
+      </div>
+    </div>
+    <div class="event-footer">
+      <div class="event-seats">
+        <div>88% seats filled</div>
+        <div class="seats-bar"><div class="seats-fill" style="width:88%;background:var(--green)"></div></div>
+      </div>
+      <div class="event-reg">Register →</div>
+    </div>
+  </a>
+
+  <a href="#" class="event-card">
+    <div class="event-thumb" style="background:linear-gradient(135deg,rgba(59,130,246,0.3),rgba(59,130,246,0.05))">🚀</div>
+    <div class="event-body">
+      <span class="event-tag tag-work">Workshop</span>
+      <div class="event-title">Full-Stack Dev Bootcamp</div>
+      <div class="event-meta">
+        <span>📅 Jan 25–26</span>
+        <span>📍 Computer Lab 3</span>
+        <span>⏱ 2 Days</span>
+      </div>
+    </div>
+    <div class="event-footer">
+      <div class="event-seats">
+        <div>30% seats filled</div>
+        <div class="seats-bar"><div class="seats-fill" style="width:30%;background:var(--blue)"></div></div>
+      </div>
+      <div class="event-reg">Register →</div>
+    </div>
+  </a>
+
+  <a href="#" class="event-card">
+    <div class="event-thumb" style="background:linear-gradient(135deg,rgba(255,107,107,0.3),rgba(255,107,107,0.05))">🎉</div>
+    <div class="event-body">
+      <span class="event-tag" style="background:rgba(255,107,107,0.2);color:var(--red)">Fest</span>
+      <div class="event-title">Techfest 2025 — Annual Tech Fest</div>
+      <div class="event-meta">
+        <span>📅 Feb 5–7</span>
+        <span>📍 College Campus</span>
+        <span>⏱ 3 Days</span>
+      </div>
+    </div>
+    <div class="event-footer">
+      <div class="event-seats">
+        <div>20% seats filled</div>
+        <div class="seats-bar"><div class="seats-fill" style="width:20%;background:var(--red)"></div></div>
+      </div>
+      <div class="event-reg">Register →</div>
+    </div>
+  </a>
+
+</div>
+
+<script src="../js/main.js"></script>
+</body>
+</html>

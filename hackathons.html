@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hackathons — CampusConnect</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎓</text></svg>" />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../css/main.css" />
+  <style>
+    .hack-banner {
+      background: linear-gradient(135deg, rgba(108,99,255,0.25), rgba(232,76,240,0.15));
+      border: 1px solid rgba(108,99,255,0.3);
+      border-radius: 20px;
+      padding: 40px;
+      margin: 0 24px 40px;
+      max-width: 1112px;
+      margin-left: auto;
+      margin-right: auto;
+      display: flex;
+      align-items: center;
+      gap: 32px;
+    }
+    .hack-banner-text h2 { font-family: var(--font-head); font-size: 28px; font-weight: 800; margin-bottom: 8px; }
+    .hack-banner-text p { color: var(--text2); font-size: 15px; }
+    .hack-banner-emoji { font-size: 64px; flex-shrink: 0; }
+    .prize-tag {
+      background: rgba(255,215,0,0.15);
+      border: 1px solid rgba(255,215,0,0.3);
+      color: #FFD700;
+      font-size: 13px;
+      font-weight: 700;
+      padding: 4px 12px;
+      border-radius: 100px;
+      margin-top: 10px;
+      display: inline-block;
+    }
+    .hack-extra { font-size: 13px; color: var(--text3); margin-top: 6px; }
+  </style>
+</head>
+<body>
+<nav class="nav" id="nav">
+  <div class="nav-inner">
+    <a href="../index.html" class="logo">Campus<span>Connect</span></a>
+    <ul class="nav-links">
+      <li><a href="events.html">Events</a></li>
+      <li><a href="clubs.html">Clubs</a></li>
+      <li><a href="hackathons.html" style="color:var(--text)">Hackathons</a></li>
+      <li><a href="dashboard.html">My Dashboard</a></li>
+    </ul>
+    <div class="nav-cta">
+      <a href="login.html" class="btn-ghost">Sign in</a>
+      <a href="register.html" class="btn-primary">Join Free</a>
+    </div>
+    <button class="hamburger" id="hamburger"><span></span><span></span><span></span></button>
+  </div>
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="events.html">Events</a>
+    <a href="clubs.html">Clubs</a>
+    <a href="hackathons.html">Hackathons</a>
+    <a href="dashboard.html">My Dashboard</a>
+    <a href="login.html">Sign in</a>
+    <a href="register.html" class="btn-primary">Join Free</a>
+  </div>
+</nav>
+
+<div class="page-hero">
+  <p class="section-eye">Code. Build. Win.</p>
+  <h1>Hackathons <span class="gradient-text">near you</span></h1>
+  <p>24 hackathons happening across campuses this month. Find your next build challenge.</p>
+</div>
+
+<div class="hack-banner">
+  <div class="hack-banner-emoji">🏆</div>
+  <div class="hack-banner-text">
+    <h2>HackMania 2025 — Registration Open</h2>
+    <p>48-hour inter-college hackathon. Themes: AI, HealthTech, EdTech, FinTech. Open to all students. Teams of 2–4.</p>
+    <div class="prize-tag">🎁 Prize Pool: ₹1,00,000</div>
+    <div class="hack-extra">📅 Jan 18–19 · 📍 CS Block, Ground Floor · 🔥 72% seats filled</div>
+  </div>
+  <a href="register.html" class="btn-primary" style="flex-shrink:0">Register Now</a>
+</div>
+
+<div class="filter-bar">
+  <button class="filter-btn active">All Hackathons</button>
+  <button class="filter-btn">This Month</button>
+  <button class="filter-btn">Solo Friendly</button>
+  <button class="filter-btn">AI/ML Theme</button>
+  <button class="filter-btn">Prize > ₹50k</button>
+  <button class="filter-btn">Online</button>
+</div>
+
+<div class="events-grid">
+
+  <a href="#" class="event-card">
+    <div class="event-thumb" style="background:linear-gradient(135deg,rgba(108,99,255,0.3),rgba(108,99,255,0.05))">💻</div>
+    <div class="event-body">
+      <span class="event-tag tag-hack">Hackathon · 48h</span>
+      <div class="event-title">HackMania 2025</div>
+      <div class="event-meta">
+        <span>📅 Jan 18–19</span>
+        <span>📍 CS Block</span>
+      </div>
+      <div style="font-size:13px;color:#FFD700;margin-top:4px">🏆 Prize: ₹1,00,000</div>
+    </div>
+    <div class="event-footer">
+      <div class="event-seats">
+        <div>72% seats filled</div>
+        <div class="seats-bar"><div class="seats-fill" style="width:72%"></div></div>
+      </div>
+      <div class="event-reg">Register →</div>
+    </div>
+  </a>
+
+  <a href="#" class="event-card">
+    <div class="event-thumb" style="background:linear-gradient(135deg,rgba(0,184,148,0.3),rgba(0,184,148,0.05))">🌱</div>
+    <div class="event-body">
+      <span class="event-tag tag-hack">Hackathon · 24h</span>
+      <div class="event-title">GreenHack — Sustainability Edition</div>
+      <div class="event-meta">
+        <span>📅 Jan 25</span>
+        <span>📍 NIT Warangal</span>
+      </div>
+      <div style="font-size:13px;color:#FFD700;margin-top:4px">🏆 Prize: ₹50,000</div>
+    </div>
+    <div class="event-footer">
+      <div class="event-seats">
+        <div>35% seats filled</div>
+        <div class="seats-bar"><div class="seats-fill" style="width:35%;background:var(--green)"></div></div>
+      </div>
+      <div class="event-reg">Register →</div>
+    </div>
+  </a>
+
+  <a href="#" class="event-card">
+    <div class="event-thumb" style="background:linear-gradient(135deg,rgba(59,130,246,0.3),rgba(59,130,246,0.05))">🤖</div>
+    <div class="event-body">
+      <span class="event-tag tag-hack">Hackathon · 36h</span>
+      <div class="event-title">AIThon — Build with AI</div>
+      <div class="event-meta">
+        <span>📅 Feb 1–2</span>
+        <span>📍 BITS Pilani</span>
+      </div>
+      <div style="font-size:13px;color:#FFD700;margin-top:4px">🏆 Prize: ₹75,000</div>
+    </div>
+    <div class="event-footer">
+      <div class="event-seats">
+        <div>50% seats filled</div>
+        <div class="seats-bar"><div class="seats-fill" style="width:50%;background:var(--blue)"></div></div>
+      </div>
+      <div class="event-reg">Register →</div>
+    </div>
+  </a>
+
+  <a href="#" class="event-card">
+    <div class="event-thumb" style="background:linear-gradient(135deg,rgba(255,107,107,0.3),rgba(255,107,107,0.05))">❤️‍🔥</div>
+    <div class="event-body">
+      <span class="event-tag tag-hack">Hackathon · 48h</span>
+      <div class="event-title">HealthTech Hack</div>
+      <div class="event-meta">
+        <span>📅 Feb 8–9</span>
+        <span>📍 VIT Vellore</span>
+      </div>
+      <div style="font-size:13px;color:#FFD700;margin-top:4px">🏆 Prize: ₹60,000</div>
+    </div>
+    <div class="event-footer">
+      <div class="event-seats">
+        <div>20% seats filled</div>
+        <div class="seats-bar"><div class="seats-fill" style="width:20%;background:var(--red)"></div></div>
+      </div>
+      <div class="event-reg">Register →</div>
+    </div>
+  </a>
+
+  <a href="#" class="event-card">
+    <div class="event-thumb" style="background:linear-gradient(135deg,rgba(255,165,0,0.3),rgba(255,165,0,0.05))">💰</div>
+    <div class="event-body">
+      <span class="event-tag tag-hack">Hackathon · 24h</span>
+      <div class="event-title">FinHack — FinTech Edition</div>
+      <div class="event-meta">
+        <span>📅 Feb 14</span>
+        <span>📍 IIT Hyderabad</span>
+      </div>
+      <div style="font-size:13px;color:#FFD700;margin-top:4px">🏆 Prize: ₹40,000</div>
+    </div>
+    <div class="event-footer">
+      <div class="event-seats">
+        <div>15% seats filled</div>
+        <div class="seats-bar"><div class="seats-fill" style="width:15%;background:var(--orange)"></div></div>
+      </div>
+      <div class="event-reg">Register →</div>
+    </div>
+  </a>
+
+  <a href="#" class="event-card">
+    <div class="event-thumb" style="background:linear-gradient(135deg,rgba(232,76,240,0.3),rgba(232,76,240,0.05))">🌐</div>
+    <div class="event-body">
+      <span class="event-tag tag-hack">Hackathon · Online · 72h</span>
+      <div class="event-title">OpenHack — No Theme</div>
+      <div class="event-meta">
+        <span>📅 Feb 20–23</span>
+        <span>📍 Online</span>
+      </div>
+      <div style="font-size:13px;color:#FFD700;margin-top:4px">🏆 Prize: ₹25,000</div>
+    </div>
+    <div class="event-footer">
+      <div class="event-seats">
+        <div>8% seats filled</div>
+        <div class="seats-bar"><div class="seats-fill" style="width:8%;background:var(--pink)"></div></div>
+      </div>
+      <div class="event-reg">Register →</div>
+    </div>
+  </a>
+
+</div>
+
+<script src="../js/main.js"></script>
+</body>
+</html>

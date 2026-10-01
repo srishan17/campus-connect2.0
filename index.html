@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CampusConnect — Your Campus, All in One Place</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎓</text></svg>" />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/main.css" />
+</head>
+<body>
+
+<!-- NAV -->
+<nav class="nav" id="nav">
+  <div class="nav-inner">
+    <a href="index.html" class="logo">Campus<span>Connect</span></a>
+    <ul class="nav-links">
+      <li><a href="pages/events.html">Events</a></li>
+      <li><a href="pages/clubs.html">Clubs</a></li>
+      <li><a href="pages/hackathons.html">Hackathons</a></li>
+      <li><a href="pages/dashboard.html">My Dashboard</a></li>
+    </ul>
+    <div class="nav-cta">
+      <a href="pages/login.html" class="btn-ghost">Sign in</a>
+      <a href="pages/register.html" class="btn-primary">Join Free</a>
+    </div>
+    <button class="hamburger" id="hamburger" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="pages/events.html">Events</a>
+    <a href="pages/clubs.html">Clubs</a>
+    <a href="pages/hackathons.html">Hackathons</a>
+    <a href="pages/dashboard.html">My Dashboard</a>
+    <a href="pages/login.html">Sign in</a>
+    <a href="pages/register.html" class="btn-primary">Join Free</a>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-bg">
+    <div class="orb orb1"></div>
+    <div class="orb orb2"></div>
+    <div class="orb orb3"></div>
+    <div class="grid-overlay"></div>
+  </div>
+  <div class="hero-content">
+    <div class="hero-badge">🚀 Now live at 50+ campuses</div>
+    <h1 class="hero-title">
+      Your entire<br/>campus life,<br/><span class="gradient-text">one tap away</span>
+    </h1>
+    <p class="hero-sub">Find hackathons, workshops, clubs & competitions at your college — register, get reminders, and check in with QR — all in one place.</p>
+    <div class="hero-actions">
+      <a href="pages/events.html" class="btn-primary btn-lg">Explore Events</a>
+      <a href="pages/register.html" class="btn-ghost btn-lg">Get Started Free →</a>
+    </div>
+    <div class="hero-stats">
+      <div class="stat"><span class="stat-num">12k+</span><span class="stat-label">Students</span></div>
+      <div class="stat-div"></div>
+      <div class="stat"><span class="stat-num">400+</span><span class="stat-label">Events Monthly</span></div>
+      <div class="stat-div"></div>
+      <div class="stat"><span class="stat-num">150+</span><span class="stat-label">Clubs Listed</span></div>
+    </div>
+  </div>
+  <div class="hero-visual">
+    <div class="phone-mockup">
+      <div class="phone-screen">
+        <div class="phone-header">
+          <div class="phone-avatar">SC</div>
+          <div>
+            <div class="phone-name">Hey, Sneha 👋</div>
+            <div class="phone-sub">3 events today</div>
+          </div>
+          <div class="phone-bell">🔔</div>
+        </div>
+        <div class="phone-card card-purple">
+          <div class="pcard-tag">HACKATHON</div>
+          <div class="pcard-title">HackMania 2025</div>
+          <div class="pcard-meta">Jan 18 · CS Block · 48h</div>
+          <div class="pcard-bar">
+            <div class="pcard-fill" style="width:72%"></div>
+          </div>
+          <div class="pcard-slots">72% seats filled</div>
+        </div>
+        <div class="phone-card card-blue">
+          <div class="pcard-tag">WORKSHOP</div>
+          <div class="pcard-title">UI/UX Masterclass</div>
+          <div class="pcard-meta">Jan 20 · Design Lab</div>
+          <div class="pcard-bar">
+            <div class="pcard-fill" style="width:40%"></div>
+          </div>
+          <div class="pcard-slots">40% seats filled</div>
+        </div>
+        <div class="phone-card card-green">
+          <div class="pcard-tag">COMPETITION</div>
+          <div class="pcard-title">Code Sprint Finals</div>
+          <div class="pcard-meta">Jan 22 · Auditorium</div>
+          <div class="pcard-reg">Register Now →</div>
+        </div>
+        <div class="phone-qr">
+          <div class="qr-icon">⬛</div>
+          <div>
+            <div class="qr-title">Your QR Pass</div>
+            <div class="qr-sub">Tap to show at entry</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FEATURES -->
+<section class="features" id="features">
+  <div class="container">
+    <div class="section-header">
+      <p class="section-eye">What you get</p>
+      <h2>Everything your campus needs</h2>
+    </div>
+    <div class="features-grid">
+      <div class="feat-card">
+        <div class="feat-icon" style="background:#6C63FF20;color:#6C63FF">📅</div>
+        <h3>Event Discovery</h3>
+        <p>Browse all campus events — hackathons, workshops, seminars, fests — filtered by date, category, or club.</p>
+      </div>
+      <div class="feat-card feat-highlight">
+        <div class="feat-icon" style="background:#fff3;color:#fff">⚡</div>
+        <h3>Instant Registration</h3>
+        <p>One-tap sign-up with your college email. Get a confirmation & your unique QR pass instantly.</p>
+        <div class="feat-glow"></div>
+      </div>
+      <div class="feat-card">
+        <div class="feat-icon" style="background:#FF6B6B20;color:#FF6B6B">🔔</div>
+        <h3>Smart Reminders</h3>
+        <p>Never miss an event. Get reminders 24h, 1h, and 15 minutes before every event you've registered for.</p>
+      </div>
+      <div class="feat-card">
+        <div class="feat-icon" style="background:#00B89420;color:#00B894">📱</div>
+        <h3>QR Attendance</h3>
+        <p>Digital QR-based check-in replaces paper registers. Organizers scan, you're marked present — done.</p>
+      </div>
+      <div class="feat-card">
+        <div class="feat-icon" style="background:#FFA50020;color:#FFA500">🏆</div>
+        <h3>Club Hub</h3>
+        <p>Discover and join campus clubs. Follow clubs to get notified about all their upcoming activities.</p>
+      </div>
+      <div class="feat-card">
+        <div class="feat-icon" style="background:#E84CF020;color:#E84CF0">📊</div>
+        <h3>Organizer Dashboard</h3>
+        <p>Colleges and clubs get powerful analytics — registrations, attendance heatmaps, and engagement stats.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- EVENT TYPES -->
+<section class="event-types">
+  <div class="container">
+    <div class="section-header">
+      <p class="section-eye">Browse by type</p>
+      <h2>What's happening on campus</h2>
+    </div>
+    <div class="type-grid">
+      <a href="pages/hackathons.html" class="type-card type-hack">
+        <div class="type-emoji">💻</div>
+        <div class="type-name">Hackathons</div>
+        <div class="type-count">24 upcoming</div>
+      </a>
+      <a href="pages/events.html?type=workshop" class="type-card type-work">
+        <div class="type-emoji">🎨</div>
+        <div class="type-name">Workshops</div>
+        <div class="type-count">38 upcoming</div>
+      </a>
+      <a href="pages/clubs.html" class="type-card type-club">
+        <div class="type-emoji">🤝</div>
+        <div class="type-name">Clubs</div>
+        <div class="type-count">150+ listed</div>
+      </a>
+      <a href="pages/events.html?type=competition" class="type-card type-comp">
+        <div class="type-emoji">🏅</div>
+        <div class="type-name">Competitions</div>
+        <div class="type-count">17 upcoming</div>
+      </a>
+      <a href="pages/events.html?type=seminar" class="type-card type-sem">
+        <div class="type-emoji">🎤</div>
+        <div class="type-name">Seminars</div>
+        <div class="type-count">12 upcoming</div>
+      </a>
+      <a href="pages/events.html?type=fest" class="type-card type-fest">
+        <div class="type-emoji">🎉</div>
+        <div class="type-name">Fests</div>
+        <div class="type-count">5 upcoming</div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- HOW IT WORKS -->
+<section class="how">
+  <div class="container">
+    <div class="section-header">
+      <p class="section-eye">How it works</p>
+      <h2>Live campus, zero friction</h2>
+    </div>
+    <div class="how-steps">
+      <div class="how-step">
+        <div class="how-num">01</div>
+        <h3>Sign up with your college email</h3>
+        <p>We verify your institution and personalize your feed — no random events from other colleges.</p>
+      </div>
+      <div class="how-arrow">→</div>
+      <div class="how-step">
+        <div class="how-num">02</div>
+        <h3>Discover & register</h3>
+        <p>Browse your campus feed. Hit Register — you'll get a confirmation and a personal QR pass.</p>
+      </div>
+      <div class="how-arrow">→</div>
+      <div class="how-step">
+        <div class="how-num">03</div>
+        <h3>Show up & scan in</h3>
+        <p>Open your QR pass at the venue. Organizer scans, you're marked present. Event history auto-saves.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PRICING / REVENUE -->
+<section class="pricing" id="pricing">
+  <div class="container">
+    <div class="section-header">
+      <p class="section-eye">For organizers</p>
+      <h2>Free for students, premium for campuses</h2>
+    </div>
+    <div class="pricing-grid">
+      <div class="price-card">
+        <div class="price-tier">Student</div>
+        <div class="price-amount">₹0<span>/forever</span></div>
+        <ul class="price-features">
+          <li>✓ Browse all events</li>
+          <li>✓ Register & get QR passes</li>
+          <li>✓ Smart reminders</li>
+          <li>✓ Club discovery</li>
+          <li>✓ Event history</li>
+        </ul>
+        <a href="pages/register.html" class="btn-ghost btn-full">Get Started</a>
+      </div>
+      <div class="price-card price-featured">
+        <div class="price-badge">Most Popular</div>
+        <div class="price-tier">College / Club</div>
+        <div class="price-amount">₹999<span>/month</span></div>
+        <ul class="price-features">
+          <li>✓ Unlimited event postings</li>
+          <li>✓ QR attendance system</li>
+          <li>✓ Registration analytics</li>
+          <li>✓ Automated reminders</li>
+          <li>✓ Priority listing</li>
+          <li>✓ Custom branding</li>
+        </ul>
+        <a href="pages/contact.html" class="btn-primary btn-full">Contact Us</a>
+        <div class="price-glow"></div>
+      </div>
+      <div class="price-card">
+        <div class="price-tier">University</div>
+        <div class="price-amount">Custom</div>
+        <ul class="price-features">
+          <li>✓ All Club features</li>
+          <li>✓ Multi-department support</li>
+          <li>✓ API integrations</li>
+          <li>✓ Dedicated support</li>
+          <li>✓ White-label option</li>
+        </ul>
+        <a href="pages/contact.html" class="btn-ghost btn-full">Talk to Sales</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TESTIMONIALS -->
+<section class="testimonials">
+  <div class="container">
+    <div class="section-header">
+      <p class="section-eye">Student stories</p>
+      <h2>Real people, real campuses</h2>
+    </div>
+    <div class="testi-grid">
+      <div class="testi-card">
+        <div class="testi-stars">★★★★★</div>
+        <p>"I used to miss events because WhatsApp groups were chaotic. CampusConnect is a game changer — I haven't missed a single hackathon since."</p>
+        <div class="testi-author">
+          <div class="testi-avatar" style="background:#6C63FF">RK</div>
+          <div><strong>Rahul K.</strong><br/><small>3rd Year, BITS Pilani</small></div>
+        </div>
+      </div>
+      <div class="testi-card testi-featured">
+        <div class="testi-stars">★★★★★</div>
+        <p>"As a club president, managing registrations used to take hours. Now it's instant — and the QR check-in at our fest was flawless for 600 students."</p>
+        <div class="testi-author">
+          <div class="testi-avatar" style="background:#00B894">PM</div>
+          <div><strong>Priya M.</strong><br/><small>Club President, VIT Vellore</small></div>
+        </div>
+      </div>
+      <div class="testi-card">
+        <div class="testi-stars">★★★★★</div>
+        <p>"The reminders feature alone is worth it. I got a notification 15 mins before my workshop and made it just in time. Never going back to paper sign-ups."</p>
+        <div class="testi-author">
+          <div class="testi-avatar" style="background:#FF6B6B">AS</div>
+          <div><strong>Arjun S.</strong><br/><small>2nd Year, NIT Warangal</small></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA FOOTER BANNER -->
+<section class="cta-banner">
+  <div class="container">
+    <div class="cta-inner">
+      <h2>Ready to connect your campus?</h2>
+      <p>Join 12,000+ students already using CampusConnect.</p>
+      <div class="cta-actions">
+        <a href="pages/register.html" class="btn-primary btn-lg">Join for Free</a>
+        <a href="pages/contact.html" class="btn-ghost btn-lg">List Your College →</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="index.html" class="logo">Campus<span>Connect</span></a>
+        <p>The student event platform built for Indian campuses.</p>
+        <div class="footer-socials">
+          <a href="#" aria-label="Twitter">𝕏</a>
+          <a href="#" aria-label="Instagram">📷</a>
+          <a href="#" aria-label="LinkedIn">in</a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h4>Platform</h4>
+        <a href="pages/events.html">Events</a>
+        <a href="pages/hackathons.html">Hackathons</a>
+        <a href="pages/clubs.html">Clubs</a>
+        <a href="pages/dashboard.html">Dashboard</a>
+      </div>
+      <div class="footer-col">
+        <h4>For Colleges</h4>
+        <a href="#pricing">Pricing</a>
+        <a href="pages/contact.html">Contact Sales</a>
+        <a href="#">Organizer Guide</a>
+      </div>
+      <div class="footer-col">
+        <h4>Company</h4>
+        <a href="#">About</a>
+        <a href="#">Blog</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms of Service</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2025 CampusConnect. Made with ❤️ for Indian students.</p>
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>

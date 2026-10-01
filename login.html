@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sign In — CampusConnect</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎓</text></svg>" />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../css/main.css" />
+</head>
+<body>
+<nav class="nav" id="nav">
+  <div class="nav-inner">
+    <a href="../index.html" class="logo">Campus<span>Connect</span></a>
+  </div>
+</nav>
+
+<div class="auth-page">
+  <div class="auth-card">
+    <div class="auth-logo">Campus<span>Connect</span></div>
+    <div class="auth-title">Welcome back</div>
+    <div class="auth-sub">Sign in to your student account</div>
+
+    <form id="loginForm">
+      <div class="form-group">
+        <label class="form-label">College Email</label>
+        <input type="email" class="form-input" placeholder="your@college.ac.in" required />
+      </div>
+      <div class="form-group">
+        <label class="form-label">Password</label>
+        <input type="password" class="form-input" placeholder="••••••••" required />
+      </div>
+      <div style="text-align:right;margin-bottom:24px">
+        <a href="#" style="font-size:13px;color:var(--purple);text-decoration:none">Forgot password?</a>
+      </div>
+      <button type="submit" class="btn-primary btn-full">Sign In</button>
+    </form>
+
+    <div class="auth-divider"><span>or continue with</span></div>
+
+    <button class="btn-ghost btn-full" onclick="showToast('Google sign-in coming soon!')">
+      <span>🔵</span> Sign in with Google
+    </button>
+
+    <div class="auth-switch">
+      Don't have an account? <a href="register.html">Create one free →</a>
+    </div>
+  </div>
+</div>
+
+<script src="../js/main.js"></script>
+</body>
+</html>
